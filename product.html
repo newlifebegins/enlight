@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>product</title>
+    <meta name="viewport"   content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/about.css" rel="stylesheet" type="text/css">
+    <link href="css/swiper-3.3.1.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div class="nav">
+    <img src="images/logo1.png" class="nav-logo1">
+    <img src="images/logo2.png" class="nav-logo2">
+    <div class="language">
+        <span>中文</span> | <span>ENGLISH</span>
+    </div>
+
+
+
+</div>
+<div class="nav-p">
+    <div class="nav-text">关于英莱壳</div>
+    <div class="nav-text">新闻资讯</div>
+    <div class="nav-text">品质保证</div>
+    <div class="nav-text">产品中心</div>
+    <div class="nav-text">服务支持</div>
+    <div class="nav-text">招商专区</div>
+    <div class="nav-text">人力资源</div>
+    <div class="nav-text">供应商合作</div>
+</div>
+
+<div class="search">
+    <input type="text" placeholder="搜索内容" class="about-input">
+    <img src="images/about-search.png" class="serachBtn search-about">
+    <img src="images/weibo.png" class="weibo">
+    <img src="images/weixin.png" class="weixin">
+</div>
+
+<img src="images/bac.png" class="bac">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!--<div class="swiper-slide"><img src="images/banner1.png" class="banner-img"></div>-->
+        <div class="swiper-slide"><div class="middle-img" style="background-image: url('images/news-banner1.jpg')"></div></div>
+        <!-- <div class="swiper-slide"><div class="middle-img" style="background-image: url('images/news-banner2.jpg')"></div></div>
+        <div class="swiper-slide"><div class="middle-img" style="background-image: url('images/news-banner1.jpg')"></div></div> -->
+    </div>
+    <!-- Add Pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+
+</div>
+
+
+<div class="title story-title agent">
+    <div class="title-green about-title">
+        <span class="title-text1">产品中心</span>
+        <span class="title-text2">Products center</span></div>
+    <!-- <div class="right-angle"></div> -->
+    <!-- <div class="title-grey"></div> -->
+</div>
+
+
+<div class="story-text agent product-list">
+    <img src="images/product.jpg">
+    <h5>英霸HT8合成超级柴油机润滑油</h5>
+</div>
+<div class="story-text agent product-list">
+    <img src="images/product.jpg">
+    <h5>英霸HT8合成超级柴油机润滑油</h5>
+</div>
+<div class="story-text agent product-list">
+    <img src="images/product.jpg">
+    <h5>英霸HT8合成超级柴油机润滑油</h5>
+</div>
+<div class="story-text agent product-list">
+    <img src="images/product.jpg">
+    <h5>英霸HT8合成超级柴油机润滑油</h5>
+</div>
+<div class="story-text agent product-list">
+    <img src="images/product.jpg">
+    <h5>英霸HT8合成超级柴油机润滑油</h5>
+</div>
+<div class="story-text agent product-list">
+    <img src="images/product.jpg">
+    <h5>英霸HT8合成超级柴油机润滑油</h5>
+</div>
+
+<div class="bottom">
+    <p class="bottom-text">Copyright 2016 ENLIGHT LUBRICATING OIL.CO.,LTD.</p>
+    <p class="bottom-text">  英莱壳润滑油有限责任公司版权</p>
+
+</div>
+
+
+<script src="js/swiper-3.3.1.min%20(1).js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        // nextButton: '.swiper-button-next',
+        // prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 3500,
+        autoplayDisableOnInteraction: false
+    });
+</script>
+<script>
+    var swiper = new Swiper('.swiper-container2', {
+        prevButton:'.swiper-button-prev',
+        nextButton:'.swiper-button-next',
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".nav-logo2").click(function(){
+            $(".nav-p").toggle(300);
+        });
+    });
+</script>
+</body>
+</html>
+
