@@ -93,16 +93,17 @@ input{
     line-height: 5vw;
 }
 .nav-p{
-   display: none;
+   display: block;
 }
 .nav-text{
     display: inline-block;
-    width: 22%;
+    width: 18%;
     font-size: 2vw;
     text-align: center;
 }
 
-
+.nav-text a{color: #000;text-decoration: none;}
+.nav-text a:hover,.nav-text.active a{color: #005F27;}
 
 .weibo,.weixin{
     width: 7.5%;
